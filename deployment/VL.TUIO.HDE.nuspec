@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.TUIO.HDE</id>
+    <version>0.0.1-alpha</version>
+    <title>VL.TUIO.HDE</title>
+    <authors>vvvv</authors>
+    <owners>vvvv</owners>
+    <projectUrl>https://github.com/vvvv/VL.TUIO.HDE</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>TUIO simulator and monitor for vvvv</summary>
+    <description>TUIO simulator and monitor for vvvv</description>
+    <tags>VL, tuio</tags>
+	<dependencies>
+	  <dependency id="VL.IO.TUIO" version="1.0.7" />
+      <dependency id="VL.Elementa" version="5.0.11" />
+    </dependencies>
+	<icon>icon\nugeticon.png</icon>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+	<file src="nugeticon.png" target="icon\" />
+  </files>
+</package>
