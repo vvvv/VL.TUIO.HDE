@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.TUIO.HDE</id>
-    <version>0.0.2</version>
+    <version>0.1.0</version>
     <title>VL.TUIO.HDE</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
@@ -13,7 +13,7 @@
     <tags>VL, tuio</tags>
 	<dependencies>
 	  <dependency id="VL.IO.TUIO" version="1.0.7" />
-      <dependency id="VL.Elementa" version="5.0.11" />
+      <dependency id="VL.Elementa" version="5.0.12" />
     </dependencies>
 	<icon>icon\nugeticon.png</icon>
   </metadata>
