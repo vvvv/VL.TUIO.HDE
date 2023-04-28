@@ -22,7 +22,7 @@ jobs:
       uses: nuget/setup-nuget@v1
       
     - name: Publish VL Nuget
-      uses: vvvv/PublishVLNuget@1.0.40
+      uses: vvvv/PublishVLNuget@1.0.42
       with:
         nuspec: deployment\VL.TUIO.HDE.nuspec
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
